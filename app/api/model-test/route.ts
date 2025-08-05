@@ -121,3 +121,4 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "测试模型时出错" }, { status: 500 });
   }
 }
+export const runtime = 'edge';
